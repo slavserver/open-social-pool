@@ -1,10 +1,10 @@
 package proxy
 
 import (
+	"errors"
 	"log"
 	"regexp"
 	"strings"
-	"errors"
 
 	"github.com/ethereumsocial/open-social-pool/rpc"
 	"github.com/ethereumsocial/open-social-pool/util"
