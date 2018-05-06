@@ -354,6 +354,7 @@ After=ethereumsocial.target
 [Service]
 Type=simple
 ExecStart=/home/<your-user-name>/open-social-pool/build/bin/open-social-pool /home/<your-user-name>/open-social-pool/config.json
+User=<your-user-name>
 
 [Install]
 WantedBy=multi-user.target
